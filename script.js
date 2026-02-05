@@ -5,9 +5,9 @@ const student = {
 }
 
 function getKeys(Student){
-	for(let key in Student){
+	
 		return Object.keys(Student)
 	}
-}
+
 
 console.log(getKeys(Student))
